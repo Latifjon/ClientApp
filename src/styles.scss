@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height:100%;
+}
+
+body {
+  height: 100%;
+  background: #fff;
+  vertical-align: top
+}
+body {
+  font-family: "Segoe UI";
+  font-weight: 400
+}
+
+
