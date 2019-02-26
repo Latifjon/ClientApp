@@ -1,0 +1,27 @@
+<mat-toolbar>
+  <span>Registration</span>
+</mat-toolbar>
+<mat-card class="my-card">
+  <mat-card-content>
+    <form class="my-form">
+       <mat-form-field class="full-width">
+              <mat-label>Логин</mat-label>
+              <input  matInput  placeholder="Login"  name="login"  required>
+           </mat-form-field>
+           <mat-form-field class="full-width">
+              <mat-label>Password</mat-label>
+              <input  matInput  placeholder="Password"  name="password" required>
+           </mat-form-field>
+    </form>
+    <section class="example-section">
+      <label class="example-margin">Role:</label>
+      <mat-radio-group [(ngModel)]="role">
+        <mat-radio-button class="example-margin" value="after">Admin</mat-radio-button>
+        <mat-radio-button class="example-margin" value="before">User</mat-radio-button>
+      </mat-radio-group>
+    </section>
+  </mat-card-content>
+   <mat-card-actions>
+    <button mat-raised-button (click)="register()" color="primary">REGISTER</button>
+   </mat-card-actions>
+</mat-card>

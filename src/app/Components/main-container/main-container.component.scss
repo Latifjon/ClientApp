@@ -5,32 +5,4 @@
   max-height: inherit;
   margin: 0 auto;
 }
-.header {
-  background: blue;
-  width: 100%;
-  height: 100px;
-}
-.sideBar {
-  background: green;
-  float: left;
-  width: 20%;
-  height: 300px;
-}
-.content {
-  background-image: url(..//..//../assets/images/background/login-register.jpg);
-  float: right;
-  width: 80%;
-  height: 300px;
-}
-.footer {
-  background: red;
-  margin: 10px, auto;
-  width: 100%;
-  height: 50px;
-  clear: both;
-}
 
-div {
-  height: 100%;
-  box-sizing: border-box
-}
