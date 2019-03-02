@@ -4,11 +4,11 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-header-nav',
-  templateUrl: './header-nav.component.html',
-  styleUrls: ['./header-nav.component.css']
+  selector: 'app-navigation-container',
+  templateUrl: './navigation-container.component.html',
+  styleUrls: ['./navigation-container.component.css']
 })
-export class HeaderNavComponent {
+export class NavigationContainerComponent {
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
