@@ -15,3 +15,8 @@
   top: 0;
   z-index: 1;
 }
+
+.mat-drawer-content {
+  background:url(../../../../assets/images/background/table-wallpapers.jpg);
+  background-size: 100% 100%;
+}

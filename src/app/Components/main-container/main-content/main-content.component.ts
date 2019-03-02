@@ -14,6 +14,10 @@ export class MainContentComponent{
     'Fall asleep'
   ];
 
+  process = [
+    'Do homeworks'
+  ];
+
   done = [
     'Get up',
     'Brush teeth',
