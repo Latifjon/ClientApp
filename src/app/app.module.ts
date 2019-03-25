@@ -14,7 +14,7 @@ import { LoginComponent } from './Components/Enter-Forms/login/login.component';
 import { RegisterComponent } from './Components/Enter-Forms/register/register.component';
 import { NavigationContainerComponent } from './Components/main-container/navigation-container/navigation-container.component';
 import { MainContentComponent } from './Components/main-container/main-content/main-content.component';
-
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,8 @@ import { MainContentComponent } from './Components/main-container/main-content/m
     MatMenuModule,
     MatSelectModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
+import {TodoService} from '../../../Services/Todo/todo.service';
 
 @Component({
   selector: 'app-main-content',
@@ -7,11 +8,15 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent{
+  constructor(private data: TodoService){}
   todo = [
     'Get to work',
     'Pick up groceries',
     'Go home',
-    'Fall asleep'
+    'Fall asleep',
+    'Get up',
+    'Brush teeth'
+
   ];
 
   process = [
@@ -19,8 +24,6 @@ export class MainContentComponent{
   ];
 
   done = [
-    'Get up',
-    'Brush teeth',
     'Take a shower',
     'Check e-mail',
     'Walk dog'
